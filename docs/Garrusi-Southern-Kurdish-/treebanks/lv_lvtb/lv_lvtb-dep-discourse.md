@@ -1,0 +1,81 @@
+---
+layout: base
+title:  'Statistics of discourse in UD_Latvian-LVTB'
+udver: '2'
+---
+
+## Treebank Statistics: UD_Latvian-LVTB: Relations: `discourse`
+
+This relation is universal.
+
+4753 nodes (1%) are attached to their parents as `discourse`.
+
+4363 instances of `discourse` (92%) are right-to-left (child precedes parent).
+Average distance between parent and child is 3.0525983589312.
+
+The following 90 pairs of parts of speech are connected with `discourse`: <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (2256; 47% instances), <tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (508; 11% instances), <tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (251; 5% instances), <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt> (225; 5% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (196; 4% instances), <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt> (162; 3% instances), <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt> (145; 3% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt> (141; 3% instances), <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt> (110; 2% instances), <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-INTJ.html">INTJ</a></tt> (89; 2% instances), <tt><a href="lv_lvtb-pos-NUM.html">NUM</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (83; 2% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt> (63; 1% instances), <tt><a href="lv_lvtb-pos-DET.html">DET</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (37; 1% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-SCONJ.html">SCONJ</a></tt> (37; 1% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt> (35; 1% instances), <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-PROPN.html">PROPN</a></tt> (30; 1% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt> (27; 1% instances), <tt><a href="lv_lvtb-pos-PROPN.html">PROPN</a></tt>-<tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt> (22; 0% instances), <tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt>-<tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt> (20; 0% instances), <tt><a href="lv_lvtb-pos-PART.html">PART</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (19; 0% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-INTJ.html">INTJ</a></tt> (18; 0% instances), <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-SYM.html">SYM</a></tt> (18; 0% instances), <tt><a href="lv_lvtb-pos-PRON.html">PRON</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (15; 0% instances), <tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt>-<tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt> (13; 0% instances), <tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt>-<tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt> (12; 0% instances), <tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt>-<tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt> (12; 0% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-PROPN.html">PROPN</a></tt> (12; 0% instances), <tt><a href="lv_lvtb-pos-PROPN.html">PROPN</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (11; 0% instances), <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-DET.html">DET</a></tt> (11; 0% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-SYM.html">SYM</a></tt> (10; 0% instances), <tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt>-<tt><a href="lv_lvtb-pos-INTJ.html">INTJ</a></tt> (9; 0% instances), <tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt>-<tt><a href="lv_lvtb-pos-INTJ.html">INTJ</a></tt> (9; 0% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-DET.html">DET</a></tt> (8; 0% instances), <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-SCONJ.html">SCONJ</a></tt> (8; 0% instances), <tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt>-<tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt> (7; 0% instances), <tt><a href="lv_lvtb-pos-SYM.html">SYM</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (7; 0% instances), <tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt>-<tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt> (6; 0% instances), <tt><a href="lv_lvtb-pos-DET.html">DET</a></tt>-<tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt> (6; 0% instances), <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-PRON.html">PRON</a></tt> (5; 0% instances), <tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt>-<tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt> (4; 0% instances), <tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt>-<tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt> (4; 0% instances), <tt><a href="lv_lvtb-pos-NUM.html">NUM</a></tt>-<tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt> (4; 0% instances), <tt><a href="lv_lvtb-pos-PRON.html">PRON</a></tt>-<tt><a href="lv_lvtb-pos-INTJ.html">INTJ</a></tt> (4; 0% instances), <tt><a href="lv_lvtb-pos-PROPN.html">PROPN</a></tt>-<tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt> (4; 0% instances), <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-NUM.html">NUM</a></tt> (4; 0% instances), <tt><a href="lv_lvtb-pos-X.html">X</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (4; 0% instances), <tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt>-<tt><a href="lv_lvtb-pos-PROPN.html">PROPN</a></tt> (3; 0% instances), <tt><a href="lv_lvtb-pos-AUX.html">AUX</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (3; 0% instances), <tt><a href="lv_lvtb-pos-CCONJ.html">CCONJ</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (3; 0% instances), <tt><a href="lv_lvtb-pos-DET.html">DET</a></tt>-<tt><a href="lv_lvtb-pos-INTJ.html">INTJ</a></tt> (3; 0% instances), <tt><a href="lv_lvtb-pos-INTJ.html">INTJ</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (3; 0% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-NUM.html">NUM</a></tt> (3; 0% instances), <tt><a href="lv_lvtb-pos-NUM.html">NUM</a></tt>-<tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt> (3; 0% instances), <tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt>-<tt><a href="lv_lvtb-pos-NUM.html">NUM</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt>-<tt><a href="lv_lvtb-pos-SYM.html">SYM</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt>-<tt><a href="lv_lvtb-pos-CCONJ.html">CCONJ</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-DET.html">DET</a></tt>-<tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-INTJ.html">INTJ</a></tt>-<tt><a href="lv_lvtb-pos-INTJ.html">INTJ</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-CCONJ.html">CCONJ</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-NUM.html">NUM</a></tt>-<tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-NUM.html">NUM</a></tt>-<tt><a href="lv_lvtb-pos-SCONJ.html">SCONJ</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-NUM.html">NUM</a></tt>-<tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-PART.html">PART</a></tt>-<tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-PART.html">PART</a></tt>-<tt><a href="lv_lvtb-pos-INTJ.html">INTJ</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-PROPN.html">PROPN</a></tt>-<tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-CCONJ.html">CCONJ</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt>-<tt><a href="lv_lvtb-pos-X.html">X</a></tt> (2; 0% instances), <tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt>-<tt><a href="lv_lvtb-pos-DET.html">DET</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt>-<tt><a href="lv_lvtb-pos-PRON.html">PRON</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-ADP.html">ADP</a></tt>-<tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-ADP.html">ADP</a></tt>-<tt><a href="lv_lvtb-pos-PART.html">PART</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt>-<tt><a href="lv_lvtb-pos-DET.html">DET</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-ADV.html">ADV</a></tt>-<tt><a href="lv_lvtb-pos-SCONJ.html">SCONJ</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-DET.html">DET</a></tt>-<tt><a href="lv_lvtb-pos-DET.html">DET</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-DET.html">DET</a></tt>-<tt><a href="lv_lvtb-pos-NUM.html">NUM</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-DET.html">DET</a></tt>-<tt><a href="lv_lvtb-pos-PRON.html">PRON</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-DET.html">DET</a></tt>-<tt><a href="lv_lvtb-pos-PROPN.html">PROPN</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-DET.html">DET</a></tt>-<tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-PRON.html">PRON</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt>-<tt><a href="lv_lvtb-pos-X.html">X</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-NUM.html">NUM</a></tt>-<tt><a href="lv_lvtb-pos-NUM.html">NUM</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-PART.html">PART</a></tt>-<tt><a href="lv_lvtb-pos-ADJ.html">ADJ</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-PRON.html">PRON</a></tt>-<tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-PROPN.html">PROPN</a></tt>-<tt><a href="lv_lvtb-pos-DET.html">DET</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-PROPN.html">PROPN</a></tt>-<tt><a href="lv_lvtb-pos-PROPN.html">PROPN</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-PROPN.html">PROPN</a></tt>-<tt><a href="lv_lvtb-pos-SCONJ.html">SCONJ</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-PROPN.html">PROPN</a></tt>-<tt><a href="lv_lvtb-pos-VERB.html">VERB</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-SYM.html">SYM</a></tt>-<tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-X.html">X</a></tt>-<tt><a href="lv_lvtb-pos-NOUN.html">NOUN</a></tt> (1; 0% instances), <tt><a href="lv_lvtb-pos-X.html">X</a></tt>-<tt><a href="lv_lvtb-pos-NUM.html">NUM</a></tt> (1; 0% instances).
+
+
+~~~ conllu
+# visual-style 2	bgColor:blue
+# visual-style 2	fgColor:white
+# visual-style 7	bgColor:blue
+# visual-style 7	fgColor:white
+# visual-style 7 2 discourse	color:blue
+1	"	"	PUNCT	zq	_	7	punct	7:punct	LvtbNodeId=a-d119-p292s1w1|SpaceAfter=No
+2	Nu	nu	PART	q	_	7	discourse	7:discourse	LvtbNodeId=a-d119-p292s1w2
+3	un	un	CCONJ	cc	_	7	cc	7:cc	LvtbNodeId=a-d119-p292s1w3
+4	ko	kas	PRON	pq000an	Case=Acc|PronType=Int	7	obj	7:obj	LvtbNodeId=a-d119-p292s1w4
+5	mēs	mēs	PRON	pp10pnn	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	7:nsubj	LvtbNodeId=a-d119-p292s1w5
+6	tagad	tagad	ADV	r0n	PronType=Dem	7	advmod	7:advmod	LvtbNodeId=a-d119-p292s1w6
+7	darīsim	darīt	VERB	vmnift31pan	Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-d119-p292s1w7|SpaceAfter=No
+8	?	?	PUNCT	zs	_	7	punct	7:punct	LvtbNodeId=a-d119-p292s1w8
+
+~~~
+
+
+~~~ conllu
+# visual-style 7	bgColor:blue
+# visual-style 7	fgColor:white
+# visual-style 8	bgColor:blue
+# visual-style 8	fgColor:white
+# visual-style 8 7 discourse	color:blue
+1	"	"	PUNCT	zq	_	4	punct	4:punct	LvtbNodeId=a-d119-p273s1w1|SpaceAfter=No
+2	Tur	tur	ADV	r0n	PronType=Dem	4	advmod	4:advmod|6:advmod	LvtbNodeId=a-d119-p273s1w2
+3	kāds	kāds	DET	pi0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	4:nsubj|6:nsubj	LvtbNodeId=a-d119-p273s1w3
+4	ir	būt	VERB	vmnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	13:ccomp	LvtbNodeId=a-d119-p273s1w4
+5	un	un	CCONJ	cc	_	6	cc	6:cc	LvtbNodeId=a-d119-p273s1w5
+6	nāk	nākt	VERB	vmnipi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj|13:ccomp	LvtbNodeId=a-d119-p273s1w6
+7	tieši	tieši	PART	q	_	8	discourse	8:discourse	LvtbNodeId=a-d119-p273s1w7
+8	šurp	šurp	ADV	r0n	_	6	advmod	6:advmod	LvtbNodeId=a-d119-p273s1w8|SpaceAfter=No
+9	,	,	PUNCT	zc	_	4	punct	4:punct	LvtbNodeId=a-d119-p273s1w9|SpaceAfter=No
+10	"	"	PUNCT	zq	_	4	punct	4:punct	LvtbNodeId=a-d119-p273s1w10
+11	viņa	viņa	PRON	pp3fsnn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	LvtbNodeId=a-d119-p273s1w11
+12	satraukti	satraukti	ADV	rpn	Degree=Pos	13	advmod	13:advmod	LvtbNodeId=a-d119-p273s1w12
+13	iesaucās	iesaukties	VERB	vmyisi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-d119-p273s1w13|SpaceAfter=No
+14	.	.	PUNCT	zs	_	13	punct	13:punct	LvtbNodeId=a-d119-p273s1w14
+
+~~~
+
+
+~~~ conllu
+# visual-style 9	bgColor:blue
+# visual-style 9	fgColor:white
+# visual-style 11	bgColor:blue
+# visual-style 11	fgColor:white
+# visual-style 11 9 discourse	color:blue
+1	Zinātnieki	zinātnieks	NOUN	ncmpn1	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	2:nsubj	LvtbNodeId=a-c12-p51s2w1
+2	atzīst	atzīt	VERB	vmnipt130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-c12-p51s2w2|SpaceAfter=No
+3	,	,	PUNCT	zc	_	8	punct	8:punct	LvtbNodeId=a-c12-p51s2w3
+4	ka	ka	SCONJ	cs	_	8	mark	8:mark	LvtbNodeId=a-c12-p51s2w4
+5	šāds	šāds	DET	pd0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	6:det	LvtbNodeId=a-c12-p51s2w5
+6	uzturs	uzturs	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	8:nsubj	LvtbNodeId=a-c12-p51s2w6
+7	visiem	viss	DET	pg0mpdn	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	8	iobj	8:iobj	LvtbNodeId=a-c12-p51s2w7
+8	nāks	nākt	VERB	vmnifi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	LvtbNodeId=a-c12-p51s2w8
+9	tikai	tikai	PART	q	_	11	discourse	11:discourse	LvtbNodeId=a-c12-p51s2w9
+10	par	par	ADP	spsa	_	11	case	11:case	LvtbNodeId=a-c12-p51s2w10
+11	labu	labs	ADJ	afmsanp	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	obl	8:obl:par	LvtbNodeId=a-c12-p51s2w11
+
+~~~
+
+

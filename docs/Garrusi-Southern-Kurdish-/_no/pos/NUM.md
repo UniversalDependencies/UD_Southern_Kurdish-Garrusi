@@ -1,0 +1,12 @@
+---
+layout: postag
+title: 'NUM'
+shortdef: 'numeral'
+---
+#####Definition
+A numeral is a word, functioning most typically as a determiner, adjective or pronoun, that expresses a number and a relation to the number, such as quantity, sequence, frequency or fraction.
+
+#####Examples
+* 0, 1, 2, 3, 4, 5, 2014, 1000000, 3.14159265359
+* *tre* "three", *femtito* "fifty-two", *fire-fem* "four-five", *tusen* "thousand"
+<!-- Interlanguage links updated So 10. května 2025, 18:13:46 CEST -->

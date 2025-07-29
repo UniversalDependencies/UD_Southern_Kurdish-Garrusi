@@ -1,0 +1,81 @@
+---
+layout: base
+title:  'Statistics of appos in UD_Nheengatu-CompLin'
+udver: '2'
+---
+
+## Treebank Statistics: UD_Nheengatu-CompLin: Relations: `appos`
+
+This relation is universal.
+
+29 nodes (0%) are attached to their parents as `appos`.
+
+29 instances of `appos` (100%) are left-to-right (parent precedes child).
+Average distance between parent and child is 3.68965517241379.
+
+The following 7 pairs of parts of speech are connected with `appos`: <tt><a href="yrl_complin-pos-NOUN.html">NOUN</a></tt>-<tt><a href="yrl_complin-pos-NOUN.html">NOUN</a></tt> (13; 45% instances), <tt><a href="yrl_complin-pos-PROPN.html">PROPN</a></tt>-<tt><a href="yrl_complin-pos-NOUN.html">NOUN</a></tt> (6; 21% instances), <tt><a href="yrl_complin-pos-PRON.html">PRON</a></tt>-<tt><a href="yrl_complin-pos-NOUN.html">NOUN</a></tt> (4; 14% instances), <tt><a href="yrl_complin-pos-NOUN.html">NOUN</a></tt>-<tt><a href="yrl_complin-pos-PROPN.html">PROPN</a></tt> (3; 10% instances), <tt><a href="yrl_complin-pos-NOUN.html">NOUN</a></tt>-<tt><a href="yrl_complin-pos-PRON.html">PRON</a></tt> (1; 3% instances), <tt><a href="yrl_complin-pos-PRON.html">PRON</a></tt>-<tt><a href="yrl_complin-pos-PRON.html">PRON</a></tt> (1; 3% instances), <tt><a href="yrl_complin-pos-PRON.html">PRON</a></tt>-<tt><a href="yrl_complin-pos-PROPN.html">PROPN</a></tt> (1; 3% instances).
+
+
+~~~ conllu
+# visual-style 3	bgColor:blue
+# visual-style 3	fgColor:white
+# visual-style 2	bgColor:blue
+# visual-style 2	fgColor:white
+# visual-style 2 3 appos	color:blue
+1	Mukũi	mukũi	NUM	CARD	NumType=Card	2	nummod	_	TokenRange=0:5
+2	tapuya	tapuya	NOUN	N	Number=Sing	7	nsubj	_	TokenRange=6:12
+3	manáu	manáu	NOUN	N	Number=Sing	2	appos	_	TokenRange=13:18
+4	usú	sú	AUX	AUXFR	Mood=Ind|Person=3|VerbForm=Fin	7	aux	_	TokenRange=19:22
+5	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	7	advmod	_	TokenRange=23:26
+6	aintá	aintá	PRON	PRON	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	7	expl	_	TokenRange=27:32
+7	umaã	maã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=33:37
+8	aintá	aintá	PRON	PRON2	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	TokenRange=38:43
+9	kupixawa	kupixawa	NOUN	N	Number=Sing	7	obj	_	SpaceAfter=No|TokenRange=44:52
+10	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=52:53
+
+~~~
+
+
+~~~ conllu
+# visual-style 4	bgColor:blue
+# visual-style 4	fgColor:white
+# visual-style 1	bgColor:blue
+# visual-style 1	fgColor:white
+# visual-style 1 4 appos	color:blue
+1	Pedro	pedro	PROPN	PROPN	_	7	nsubj	_	SpaceAfter=No|TokenRange=0:5
+2	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=5:6
+3	Maria	maria	PROPN	PROPN	_	4	nmod:poss	_	TokenRange=7:12
+4	mena	mena	NOUN	N	Number=Sing	1	appos	_	SpaceAfter=No|TokenRange=13:17
+5	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=17:18
+6	uikú	ikú	AUX	COP	Mood=Ind|Person=3|VerbForm=Fin	7	cop	_	TokenRange=19:23
+7	iké	iké	ADV	ADVDX	AdvType=Loc|Deixis=Prox|PronType=Dem	0	root	_	SpaceAfter=No|TokenRange=24:27
+8	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=27:28
+
+~~~
+
+
+~~~ conllu
+# visual-style 7	bgColor:blue
+# visual-style 7	fgColor:white
+# visual-style 5	bgColor:blue
+# visual-style 5	fgColor:white
+# visual-style 5 7 appos	color:blue
+1	Maita	maita	ADV	ADVRA	AdvType=Man|PronType=Int	2	advmod	_	TokenRange=0:5
+2	hambeú	mbeú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=6:11
+3	:	:	PUNCT	PUNCT	_	9	punct	_	TokenRange=11:12
+4	—	—	PUNCT	PUNCT	_	9	punct	_	TokenRange=12:13
+5	Indé	indé	PRON	PRON	Case=Acc,Nom|Number=Sing|Person=2|PronType=Prs	9	vocative	_	TokenRange=14:18
+6	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	TokenRange=19:21
+7	paya	paya	NOUN	N	Number=Sing	5	appos	_	SpaceAfter=No|TokenRange=22:26
+8	,	,	PUNCT	PUNCT	_	9	punct	_	TokenRange=26:27
+9	remukaturú	mukaturú	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	ccomp	_	TokenRange=28:38
+10	ixé	ixé	PRON	PRON	Case=Acc,Nom|Number=Sing|Person=1|PronType=Prs	9	obj	_	TokenRange=39:42
+11	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	obl	_	TokenRange=43:44
+12	suí	suí	ADP	ADP	AdpType=Post	11	case	_	TokenRange=45:48
+13	kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	14	det	_	TokenRange=49:52
+14	ura	ura	NOUN	N	Number=Sing	9	dislocated	_	Orig=hora|OrigLang=por|SpaceAfter=No|TokenRange=53:56
+15	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=56:57
+
+~~~
+
+
