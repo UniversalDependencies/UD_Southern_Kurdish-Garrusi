@@ -1,0 +1,171 @@
+---
+layout: base
+title:  'Old Irish UD'
+udver: '2'
+---
+
+# UD for Old Irish <span class="flagspan"><img class="flag" src="../../flags/svg/IE-FOUR.svg" /></span>
+
+## Treebank Classification and Pre-tokenisation Considerations
+
+Both spelling and word-separation in Old Irish texts can be highly irregular. In modern editions some editors attempt to faithfully reproduce the text as it survives in the original manuscript. These are generally referred to as diplomatic editions. Other editors may alter the text so that it does not resemble exactly the contents of any single manuscript source, often normalising the text, and typically adding editorial commentary and supplying variant readings from extant sources in the form of footnotes (but not within the body of the text). This work may be done with the aim of emulating a theorised earlier exemplar from which one or more existing manuscript sources are believed to have been copied, or with a view to making the resulting edition more reader-friendly. In such cases the resulting work is generally referred to as a critical edition. Editors may also alter texts by standardising spelling, by silently introducing word spacing, by capitalising certain letter characters in accordance with modern orthographic practice, and by introducing forms of punctuation not present in the original manuscript. While these changes are not necessarily associated with critical editions, they alter the text in such a manner that it cannot be referred to as entirely diplomatic. Therefore, texts edited in such a manner will also be referred to broadly as "critical editions" here also.
+
+It is necessary to mark a distinction between diplomatic editions and those which have been altered to any extent by modern editors (i.e. "critical editions"). To mark this distinction all Old Irish treebanks should identify in their README documentation which type of edition they represent by using either the "diplomatic" or "critical" designation. This information should also be included in the treebank name and URL using the abbreviations _Dip_ and _Crit_ (for example, the _Diplomatic St. Gall Glosses_ treebank URL ends: .../UD_Old_Irish-DipSGG).
+
+For the purpose of choosing the correct designation for a new treebank, the following definitions should be adhered to.
+
+Diplomatic:
+
+* A treebank is considered diplomatic only if the spelling of words matches that found in the original manuscript exactly (or as closely as is reasonably possible, for example, where text is missing as a result of binding or damage to the manuscript).
+
+* Word separation using space characters should be based as closely as possible on that of the original manuscript. If a single word is split in a manuscript to fit around pre-existing text, a hole in the folio, or some other form of damage, or if it has been necessary for a scribe to write a word over two or more lines because of a lack of space in the manuscript, no spacing, punctuation or new-line character should be introduced in the digital text where the word has been split. However, if a space occurs between the letter characters of a single word for other reasons (as a result of linguistic stress patterns, for example) these spaces should be retained within the digital text, as in examples like "_ṅ dǽ_" or "_ṁ bed_".
+
+* Non-letter characters can be used to approximate marks in the manuscript with a similar appearance, however, these can also be omitted if they do not clearly serve as forms of punctuation in the text or as indications of manuscript abbreviations or contractions.
+
+* No punctuation characters should be introduced which do not resemble punctuation, contraction or abbreviation marks which occur in the original manuscript source. For example, the interpunct should not be used within the verbal complex, nor should hyphenation be used either within the verbal complex or to separate nasals (such as _ṅ_ and _ṁ_) from following nasalised words.
+
+* Where contractions and abbreviations are marked in a manuscript there are two options. Either the mark can be represented by the use of an appropriate punctuation character, or the contracted/abbreviated form can be expanded using letter-characters only. Where contractions or abbreviations are expanded using letter characters, no punctuation character(s) should be used to represent the contraction/abbreviation mark. Where forms are expanded in this manner, it would be preferable for the annotated text of the sentence to be supplied as metadata alongside the unannotated text, though this is not strictly required. Annotations should follow the TEI standard and identify spans of text which have been expanded or supplied by modern editors.
+
+* Aside from the exceptions above, no characters should be introduced into or removed from diplomatic treebanks.
+
+Critical:
+
+* A treebank should be identified as a critical edition if any characters have been introduced which are neither present in the original manuscript nor implied in the original manuscript by abbreviated or contracted forms.
+
+* Aside from non-letter characters serving no punctuation function, if any characters are removed which are present in the original manuscript, a treebank should be identified as a critical edition.
+
+* If any punctuation characters which clearly serve a punctuation function in the original manuscript are omitted or replaced in a treebank, it should also be identified as a critical edition. The treebank is also critical if any punctuation characters, except for those used to mark contractions, are introduced (including hyphens or the interpunct within the verbal complex).
+
+* If spacing between words has been changed from that of the original manuscript the treebank should be identified as a critical edition.
+
+* Any change to spelling, or the introduction or removal of any letter character(s) which do not appear in the manuscript source, means that a treebank cannot be identified as diplomatic, and must be marked as critical.
+
+* If any text is transliterated from one alphabet to another, the treebank should be identified as critical. For example, if text appears in Ogham in the original manuscript but in Roman script in a treebank, the treebank should be marked as critical.
+
+## Tokenisation and Word Segmentation
+
+Tokenising Old Irish text is an unusually difficult task (Doyle and McCrae, 2025a; Doyle et al., 2019), posing difficulties which may not arise in many other languages. Words are not necessarily delimited by whitespace characters or punctuation in Old Irish texts. Instead, manuscript sources tend to combine unstressed words (including common clitics like the copula and definite article) with surrounding parts-of-speech bearing a stress (see Thurneysen, p. 24 §34 and p. 30 §41). This practice results in many compound words which are purely orthographic, but comprised of two or more lexical words. Where spacing does occur in Roman script, the whitespace character is used to delineate word boundaries, however, Ogham script has a discrete space mark consisting of a stemline devoid of any other markings.
+
+Tokenisation in treebanks for Old Irish follows the method set out in Doyle and McCrae (2025a). This is intended to ensure compatibility, not only between digital resources for Old Irish, but between Old Irish and other languages in UD also (see Doyle and McCrae 2025b). The following section gives a brief overview of some of the requirements of this tokenisation method.
+
+### Tokenisation in Old Irish Treebanks
+
+Orthographic combinations of discrete lexical words should be separated during tokenisation:
+
+* This includes the initial preverb, conjunct particles, and infixed pronouns within the verbal complex, for example _dabeir_ should be tokenised "_d_", "_a_", "_beir_".
+
+* This also includes combinations with the copula, _cid_ should be tokenised "_ci_", and "_d_", and _máso_ should be tokenised "_má_" and "_so_".
+
+* Combinations of definite articles combining with prepositions should also be separated, as with _isin_ being tokenised "_i_" and "_sin_".
+
+Prepositional pronouns (conjugated prepositions) are taken to be discrete words in their own right, and should not be separated during tokenisation. This is based on Stifter's assertion that "It is not possible to separate one element from the other" (2006, p. 87) follows their treatment in Modern Irish treebanks (though notably not their treatment in Scottish Gaelic or Manx treebanks).
+
+Punctuation is infrequent in manuscript sources, however, punctuation characters not present in the original manuscript material may be introduced by editors of some modern editions. Aside from these, the following exceptions occur:
+
+* A variety of symbols, puncta, and marks representing abbreviations and contractions appear in manuscripts. If these are represented in a treebank by visually similar punctuation characters, these should not be considered a form of punctuation. Instead these makes up part of a word token (eg "_ca-_" for contracted _cach_, and "_.i._" for Latin _id est_.
+
+* Middle dots and hyphenation are introduced by some editors within the verbal complex. Where these separate preverbs, conjunct particles, and sometimes infixed pronouns from the remainder of the verbal complex, they are treated as punctuation (for example, _ni·timmorcar_ should be tokenised "_ni_", "·", "_timmorcar_", and _do·beir_ should be tokenised "_do_", "·", "_beir_").
+
+* Hyphenation introduced to show nasalisation at the beginning of a word should be treated as part of a single token with the word, as with "_n-uile_".
+
+* In Ogham script the opening and closing feather mark characters (_᚛_ and _᚜_) should be treated as punctuation.
+
+No multiword tokens occur. Where adjectives or nouns precede other nouns they generally remain separate tokens. This can be seen in examples like "_sengrec_" which is split into "_sen_" and "_grec_".
+
+Some general advice on tokenisation follows which may not be intuitive to those familiar with Old Irish:
+
+* There are no discrete negative conjunctions. All such forms should be divided into the conjunction, and following negative conjunction (eg. _connách_ becomes _co_ and _nnách_).
+
+* Tokens may contain whitespace characters in some instances, for example, where letters which mark nasalisation are separated from the rest of the following word in manuscript sources. Thus, in the gloss _.i. céin bas m béo infer_, "_m béo_" should be treated as a single token.
+
+* Empty tokens are not possible. Where a word is reduced orthographically to 0 in some positions (eg. 3rd sg. forms of the copula or of infixed pronouns following negative particles) no replacement mark or token should be used in its place. Hence, in _ní n-aithgéuin_, "he does not recognise him", where the object pronoun is only apparent because of nasalisation on the following vowel, only the two tokens "_ní_" and "_n-aithgéuin_" are rendered.
+
+## Morphology
+
+### POS-Tags
+
+* Currently only 16 universal tags are used for Old Irish.
+  * No treebank currently uses the symbol [SYM]() category, however, it would be appropriate in treebanks where punctuation characters are used to represent manuscript symbols (aside from punctuation, contractions, etc. referenced above).
+
+* The only words tagged [AUX]() are forms of the copula. All other verbs, (including the substantive verb, _attá_, "to be") are tagged [VERB]().
+
+* Old Irish particles [PART]() include:
+  * demonstrative particles
+  * deictic particles
+  * relative particles, and demonstrative relative particles
+  * vocative particles
+  * negative particles
+  * interrogative particles
+  * preverbs (such as _ad_, _as_, _do_, _fo_ and _ro_)
+  * the empty verbal particle, _no_.
+
+* The [DET]() tag is used for forms of the definite article, as well as for pronominal adjectives (like _cach_) and indefinite pronouns (like _nach_).
+
+* The [PRON]() tag is used for both independent and infixed personal pronouns, as well as possessive pronouns, emphatic pronouns, and the anaphoric pronoun, _suide_.
+
+* Verbal nouns are tagged as [NOUN]().
+
+* The "verbal of necessity" is tagged as a [VERB]().
+
+---
+
+### Features
+
+* Nouns inflect for [Number]() (singular, dual, or plural) and [Case]() (nominative, vocative, accusative, genitive or dative). Inherent features such as Gender and Stem-class are not encoded.
+
+* Adjectives agree with Nouns with respect to the features [Case](), [Gender]() (masculine, feminine, or neuter), and [Number](), all of which are encoded for adjectives as none are inherent.
+
+* Verbs inflect for [Mood]() (conditional, imperative, indicative, or subjunctive), [Number]() (singular or plural), [Person]() (1, 2, or 3), [Tense]() (past, present, or future), and [Voice]() (active or passive) at a minimum.
+  * Where the [Tense]() is marked as past for a verb, it may also inflect for [Aspect]() (imperfect or perfect).
+  * Where a nasalising or leniting relative clause is present within the verbal complex, a verb will have the feature [PronType]() (relative), but where a relative particle precedes a verb the particle will be annotated [PronType]() (relative).
+  * Where the substantive verb shows repeated action in the present tense it inflects for [Aspect]() (habitual).
+  * Where an infixed pronoun is present it will be annotated for [PronClass]() (A, B, or C), and [PronType]() (Personal).
+  * Where an empty _d_ or _id_ occurs in place of an infixed pronoun following the conjunctions _cía_ and _má_, the [PronType]() is indicated as being void to show that it does not function as a personal pronoun.
+
+* Where various particles precede a verb they will have inherent features, depending on their function:
+  * Relative particles will have [PronType]() (relative).
+  * Negative particles will have [Polarity]() (negative).
+  * Interrogative particles will have [PronType]() (interrogative).
+  * Preverbs and the empty verbal particle, _no_, will have [PartType]() (verbal).
+
+* The copula has an inherent [VerbType]() (copula), and inflects for [Mood]() (conditional, imperative, indicative, or subjunctive), [Number]() (singular or plural), [Person]() (1, 2, or 3), [Polarity]() (positive or negative), and [Tense]() (past, present, or future) at a minimum.
+  * Relative forms of the copula have inherent [PronType]() (relative).
+
+## Syntax
+
+* The normal order of an Old Irish sentence is verb-subject-object (Stifter, 2006, p. 40). There are some notable exceptions to this:
+  * Where the object of a verb is represented by an infixed pronoun, it will precede both the verb token and the subject.
+  * Because verbs inflect to show subject, the subject of a verb may not be explicitly stated following the verb.
+  * A copula construction known as "fronting" is frequently employed to place emphasis on a particular word within a sentence (Stifter, 2006, p. 120). In this construction the emphasised word is "fronted", i.e. moved to beginning of the sentence, following the copula as a predicate. An emphasised noun which would otherwise be the subject or object of the verb will occur before the verb in a sentence of this type. It is possible for the copula to be omitted from this construction, in which case the emphasised word stands at the beginning of the sentence.
+  * Bergin's Law (see Bergin 1938) describes a form of archaism found in some Early Irish texts whereby a verb does not stand at the head of its clause, takes a dependent form, and can follow its subject or object.
+
+* In copular sentences the normal word order is copula-predicate-subject (Stifter, 2006, p. 119). As the copula inflects for Person and Number, however, the subject does not always follow the predicate where it is contained in the copula form (i.e. in 1st and 3rd person forms).
+
+* As the largest amount of text surviving from the Old Irish period comes in the form of glosses of Latin text, sometimes amounting only to single-word translations, there will often be no verb form present to form the head of a sentence.
+
+## References
+
+Bergin, Osborn. On the Syntax of the Verb in Old Irish. In _Ériu_, vol. 12, 1938, pp. 197–214.
+
+Doyle, Adrian and John P. McCrae. 2024. Developing a Part-of-speech Tagger for Diplomatically Edited Old Irish Text. In Proceedings of the Third Workshop on Language Technologies for Historical and Ancient Languages (LT4HALA) @ LREC-COLING-2024, pages 11–21, Torino, Italia. ELRA and ICCL. https://aclanthology.org/2024.lt4hala-1.2/
+
+Doyle, Adrian and John P. McCrae. 2025a. An Assessment of Word Separation Practices in Old Irish Text Resources and a Universal Method for Tokenising Old Irish Text. In _Proceedings of the 5th Celtic Language Technology Workshop_, pages 1–11, Abu Dhabi [Virtual Workshop]. International Committee on Computational Linguistics. https://aclanthology.org/2025.cltw-1.1/
+
+Doyle, Adrian and John P. McCrae. 2025b. Development of Old Irish Lexical Resources, and Two Universal Dependencies Treebanks for Diplomatically Edited Old Irish Text. In _Proceedings of the 5th International Conference on Natural Language Processing for Digital Humanities_, pages 393-402, Albuquerque, USA. Association for Computational Linguistics. https://aclanthology.org/2025.nlp4dh-1.34/
+
+Doyle, Adrian, John P. McCrae, and Clodagh Downey. 2019. A Character-Level LSTM Network Model for Tokenizing the Old Irish text of the Würzburg Glosses on the Pauline Epistles. In Proceedings of the Celtic Language Technology Workshop, pages 70–79, Dublin, Ireland. European Association for Machine Translation. https://aclanthology.org/W19-6910/
+
+McCone, Kim. (1997). The Early Irish Verb - Second Edition Revised with Index. An Sagart, Maynooth.
+
+Ó hUiginn, Ruairí. Notes on Old Irish Syntax. In _Ériu_, vol. 38, 1987, pp. 177–183.
+
+Stifter, David. (2006). Sengoidelc. Syracuse University Press, New York.
+
+Thurneysen, Rudolf. (1946). A Grammar of Old Irish. Binchy, D. A. and Bergin, Osborn (tr.), Reprinted 2010, Dublin Institute for Advanced Studies.
+
+## Treebanks
+
+There are [two](../treebanks/sga-comparison.html) Old Irish UD treebanks:
+
+  * [Old Irish-DipSGG](../treebanks/sga_dipsgg/index.html)
+  * [Old Irish-DipWBG](../treebanks/sga_dipwbg/index.html)
