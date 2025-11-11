@@ -1,0 +1,79 @@
+Running the following version of UD tools:
+commit 26e6c87a2f518322d15901a351199b6be6569062
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri Nov 7 15:39:58 2025 +0100
+Evaluating the following revision of UD_Southern_Kurdish-Garrusi:
+commit cec58e18e03c435bed5ab895af8f248a0c2480cc
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 15:36:08 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'sdh_garrusi'
+Language code (from CoNLL-U file name) = 'sdh'
+Found the following data files: sdh_garrusi-ud-dev.conllu, sdh_garrusi-ud-test.conllu, sdh_garrusi-ud-train.conllu
+Size: counted 1685 of 1685 words (nodes).
+Size: min(0, log((N/1000)**2)) = 1.04353112760865.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 14 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 1018 out of 1685 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 20 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang sdh --max-err=10 UD_Southern_Kurdish-Garrusi/sdh_garrusi-ud-dev.conllu
+[Line 9 Sent 31]: [L3 Warning pron-det-without-prontype] The word 'î' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 20 Sent 32]: [L3 Warning pron-det-without-prontype] The word 't' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 34 Sent 33]: [L3 Warning pron-det-without-prontype] The word 't' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 38 Sent 33]: [L3 Warning pron-det-without-prontype] The word 't' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 51 Sent 34]: [L3 Warning pron-det-without-prontype] The word 't' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 61 Sent 35]: [L3 Warning pron-det-without-prontype] The word 'ewe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 70 Sent 36]: [L3 Warning pron-det-without-prontype] The word 'ewe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 73 Sent 36]: [L3 Warning pron-det-without-prontype] The word 'y' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 83 Sent 37]: [L3 Warning pron-det-without-prontype] The word 'y' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 94 Sent 38]: [L3 Warning pron-det-without-prontype] The word 'y' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 49
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang sdh --max-err=10 UD_Southern_Kurdish-Garrusi/sdh_garrusi-ud-test.conllu
+[Line 24 Sent 82]: [L3 Warning pron-det-without-prontype] The word 'ki' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 25 Sent 82]: [L3 Warning pron-det-without-prontype] The word 'ewse' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 77 Sent 88]: [L3 Warning pron-det-without-prontype] The word 'Ayda' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 90 Sent 89]: [L3 Warning pron-det-without-prontype] The word 'Yêş' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 91 Sent 89]: [L3 Warning pron-det-without-prontype] The word 'ki' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 122 Sent 92]: [L3 Warning pron-det-without-prontype] The word 'ki' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 132 Sent 93]: [L3 Warning pron-det-without-prontype] The word 'Yê' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 134 Sent 93]: [L3 Warning pron-det-without-prontype] The word 'kuř' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 156 Sent 95]: [L3 Warning pron-det-without-prontype] The word 'Yê' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 165 Sent 95]: [L3 Warning pron-det-without-prontype] The word 'yê' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 16
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang sdh --max-err=10 UD_Southern_Kurdish-Garrusi/sdh_garrusi-ud-train.conllu
+[Line 7 Sent 1]: [L3 Warning pron-det-without-prontype] The word 'î' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 11 Sent 1]: [L3 Warning pron-det-without-prontype] The word '’î' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 21 Sent 2]: [L3 Warning pron-det-without-prontype] The word 'Ew' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 23 Sent 2]: [L3 Warning pron-det-without-prontype] The word 'î' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 40 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'î' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 49 Sent 4]: [L3 Warning pron-det-without-prontype] The word 'Ewe' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 65 Sent 5]: [L3 Warning pron-det-without-prontype] The word 'yêkî' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 90 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'Ewane' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 94 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'î' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 98 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'y' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 158
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.0755333017357858) = 0.0279752969391799
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.823529411764706) = 0.0915032679738562
+(weight=0.111111111111111) * (score{udeprels}=0.540540540540541) = 0.0600600600600601
+(TOTAL score=0.408674427442232) * (availability=1) * (validity=1) = 0.408674427442232
+STARS = 2
+UD_Southern_Kurdish-Garrusi	0.408674427442232	2
