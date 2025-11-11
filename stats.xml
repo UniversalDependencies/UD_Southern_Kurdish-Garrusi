@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>221</sentences><tokens>1551</tokens><words>1685</words><fused>134</fused></total>
+    <train><sentences>152</sentences><tokens>1069</tokens><words>1177</words><fused>108</fused></train>
+    <dev><sentences>49</sentences><tokens>350</tokens><words>372</words><fused>22</fused></dev>
+    <test><sentences>20</sentences><tokens>132</tokens><words>136</words><fused>4</fused></test>
+  </size>
+  <lemmas unique="266" /><!-- ., kirdin, î, dagin, y, dan, gulabî, we, le, cem, bun, kumek, yê, ewe, kuř -->
+  <forms unique="404" /><!-- ., î, y, we, dey, cem, le, yê, da, kumek, gulabîyegan, kirdin, naw, ki, ! -->
+  <fusions unique="70" /><!-- kumekî, pay, eray, xoy, gîştî, cemî, cemîyan, dwanî, kumegî, ley, qiçî, Îvetî, Bîne, Timşay, bawuşî -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="14">
+    <tag name="ADJ">19</tag><!-- zexm, xalî, piř, xerab, Fîrye, diz, gîşt, xakî, xem, xo -->
+    <tag name="ADP">137</tag><!-- we, le, naw, era, e, i, wer, ban, ewe, y -->
+    <tag name="ADV">159</tag><!-- cem, řed, red, lewre, lay, êdame, Xem, dûware, la, xwar -->
+    <tag name="CCONJ">3</tag><!-- o, ya -->
+    <tag name="DET">45</tag><!-- ewe, yê, ew, ye, yêk, ay, ewane, yane’o, yêkdîr -->
+    <tag name="INTJ">17</tag><!-- aha, way, ey, ha, Ah, E, ewse -->
+    <tag name="NOUN">397</tag><!-- gulabî, kumek, kuř, duçerxe, sebed, rikab, pa, kelişîr, pîya, zemîn -->
+    <tag name="NUM">49</tag><!-- yê, dane, sê, yêk, dan, danêş, du, sî, sîyanî, çar -->
+    <tag name="PART">32</tag><!-- ki, ewse, erî, xo, He, her, hêşto, xod, çe -->
+    <tag name="PRON">176</tag><!-- î, y, ewane, ewe, xo, ki, yan, t, et, Yane -->
+    <tag name="PROPN">2</tag><!-- xoda, xoda! -->
+    <tag name="PUNCT">266</tag><!-- ., !, ,, “, ”, (, ), ? -->
+    <tag name="VERB">382</tag><!-- kirdin, dagin, dan, bun, bîgin, hatin, daştin, řûweyn, keftin, wutin -->
+    <tag name="X">1</tag><!-- ma -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="20">
+    <feat name="Aspect" value="Imp" upos="VERB">5</feat><!-- dîyay, Dîyan, diken, diçînî -->
+    <feat name="Aspect" value="Perf" upos="VERB">14</feat><!-- keftîye, keftîvî, bîvî, girdîvî, keftîyu, kirdîye, mînîyaye, rîşîyavî, rîşîyavîne, wessîye -->
+    <feat name="Definite" value="Def" upos="DET,NOUN,PRON">136</feat><!-- gulabîyegan, sebedege, kuře, gulabîyege, pîyage, kelişîrege, kelawege, duçerxege, Ew, Zařû’ege -->
+    <feat name="Definite" value="Ind" upos="DET,NOUN,NUM,PRON">39</feat><!-- yê, neferî, sûtî, Herkanîyan, Yêkiley, Yêkileyan, Yêkileyane, dem, ewkile, hûş -->
+    <feat name="ExtPos" value="ADP" upos="ADP">97</feat><!-- we, le, naw, era, e, wer, l, eray -->
+    <feat name="Mood" value="Imp" upos="VERB">5</feat><!-- bew, bûwis, girdîvî, mede, Şa -->
+    <feat name="Mood" value="Ind" upos="VERB">330</feat><!-- dey, da, kirdin, key, bî, ken, kird, bîn, dû, hatin -->
+    <feat name="Mood" value="Sub" upos="VERB">27</feat><!-- biken, bikey, bey, bûwey, Bizam, bem, bikenî, bizanî, bîrûwey, bîyarî -->
+    <feat name="Number" value="Plur" upos="DET,NOUN,PRON,VERB">173</feat><!-- gulabîyegan, kirdin, ken, bîn, hatin, biken, den, ewane, dîrin, ewanêş -->
+    <feat name="Number" value="Sing" upos="DET,NOUN,PRON,VERB">723</feat><!-- î, y, dey, da, key, bî, ew, sebedege, kumek, kuře -->
+    <feat name="Person" value="1" upos="VERB">4</feat><!-- Bizam, bem, nîzam, nîzanim -->
+    <feat name="Person" value="2" upos="PRON,VERB">12</feat><!-- t, et, bew, bûwis, key, mede, Şa -->
+    <feat name="Person" value="3" upos="PRON,VERB">504</feat><!-- î, y, dey, da, kirdin, key, bî, ken, bîn, kird -->
+    <feat name="Tense" value="Fut" upos="VERB">32</feat><!-- biken, bikey, bey, bûwey, xwazî, Bizam, Dîrîyay, bem, bew, bikenî -->
+    <feat name="Tense" value="Past" upos="VERB">172</feat><!-- da, kirdin, bî, kird, bîn, hatin, wut, dîrîya, rûwey, bîye -->
+    <feat name="Tense" value="Pres" upos="VERB">175</feat><!-- dey, key, ken, dû, bîye, dîrî, dîyay, den, dořî, dîrin -->
+    <feat name="VerbForm" value="Fin" upos="VERB">362</feat><!-- dey, da, kirdin, key, bî, ken, kird, bîn, bîye, dû -->
+    <feat name="Voice" value="Act" upos="VERB">353</feat><!-- dey, da, kirdin, key, bî, ken, kird, bîn, bîye, dû -->
+    <feat name="Voice" value="Cau" upos="VERB">4</feat><!-- bitekinî, rîşîyavî, tekanin, řişanin -->
+    <feat name="Voice" value="Pass" upos="VERB">6</feat><!-- dîrîya, Dîrîyay, de, rîşîya -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="23">
+    <dep name="acl:relcl">42</dep>
+    <dep name="advcl">1</dep>
+    <dep name="advmod">55</dep>
+    <dep name="advmod:emph">3</dep>
+    <dep name="case">128</dep>
+    <dep name="cc">3</dep>
+    <dep name="compound">1</dep>
+    <dep name="compound:lvc">228</dep>
+    <dep name="conj">73</dep>
+    <dep name="dep">1</dep>
+    <dep name="det">33</dep>
+    <dep name="discourse">35</dep>
+    <dep name="dislocated">2</dep>
+    <dep name="fixed">10</dep>
+    <dep name="nmod">20</dep>
+    <dep name="nmod:poss">75</dep>
+    <dep name="nsubj">136</dep>
+    <dep name="nummod">42</dep>
+    <dep name="obj">99</dep>
+    <dep name="obl">163</dep>
+    <dep name="parataxis">48</dep>
+    <dep name="punct">266</dep>
+    <dep name="root">221</dep>
+  </deps>
+</treebank>
