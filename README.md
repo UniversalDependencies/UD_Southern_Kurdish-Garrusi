@@ -9,7 +9,7 @@ Note: This README is based on the current state of the dataset, which includes 1
 
 # Acknowledgments
 
-We thank the contributors and native speakers who assisted in the creation of this dataset. We also acknowledge Masoumeh Zarei for her help during the early stages, before the main work began. This dataset supports the documentation and computational modeling of understudied languages.
+We thank the contributors and native speakers who assisted in the creation of this dataset. We also acknowledge Masoumeh Zarei for her help during the early stages on fieldwork, transcription and translation, before the main work began. This dataset supports the documentation and computational modeling of understudied languages.
 
 ## References
 
@@ -34,7 +34,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Asadpour, Hiwa; Zarei, Masoumeh
+Contributors: Asadpour, Hiwa; Zarei, Masoumeh, Luigi, Talamo; Verkerk, Annemarie
 Contributing: here
 Contact: asadpourhiwa@gmail.com
 ===============================================================================
