@@ -69,12 +69,12 @@
     <dep name="discourse">35</dep>
     <dep name="dislocated">2</dep>
     <dep name="fixed">10</dep>
-    <dep name="nmod">20</dep>
+    <dep name="nmod">22</dep>
     <dep name="nmod:poss">75</dep>
     <dep name="nsubj">136</dep>
     <dep name="nummod">42</dep>
     <dep name="obj">99</dep>
-    <dep name="obl">163</dep>
+    <dep name="obl">161</dep>
     <dep name="parataxis">48</dep>
     <dep name="punct">266</dep>
     <dep name="root">221</dep>
