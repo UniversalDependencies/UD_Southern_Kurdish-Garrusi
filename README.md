@@ -31,7 +31,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Asadpour, Hiwa; Luigi, Talamo; Verkerk, Annemarie
+Contributors: Asadpour, Hiwa; Talamo, Luigi; Verkerk, Annemarie
 Contributing: here
 Contact: asadpourhiwa@gmail.com
 ===============================================================================
