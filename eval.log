@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Southern_Kurdish-Garrusi:
-commit 45541371e05ff8f653ac633f34b6062628dac7c8
+commit 69e576d2ee5887f1b9c1c49cad91ff34e5f0cbb5
+Merge: 30f8f61 5efaf2f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:51:21 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'sdh_garrusi'
 Language code (from CoNLL-U file name) = 'sdh'
@@ -64,13 +64,9 @@ Warnings: 16
 [Line 94 Sent 7]: [L3 WARNING pron-det-without-prontype] The word 'î' is tagged 'PRON' but it lacks the 'PronType' feature
 [Line 98 Sent 7]: [L3 WARNING pron-det-without-prontype] The word 'y' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further messages regarding WARNING/MORPHO
-[Line 1142 Sent 167]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'sebed') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1224 Sent 173]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'sebedege') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 Warnings: 156
-SYNTAX errors: 2
-*** FAILED *** with 2 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -78,6 +74,6 @@ Validity: 0.01
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.823529411764706) = 0.0915032679738562
 (weight=0.111111111111111) * (score{udeprels}=0.540540540540541) = 0.0600600600600601
-(TOTAL score=0.408674427442232) * (availability=1) * (validity=0.01) = 0.00408674427442232
-STARS = 0
-UD_Southern_Kurdish-Garrusi	0.00408674427442232	0
+(TOTAL score=0.408674427442232) * (availability=1) * (validity=1) = 0.408674427442232
+STARS = 2
+UD_Southern_Kurdish-Garrusi	0.408674427442232	2
